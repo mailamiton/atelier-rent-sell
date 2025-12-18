@@ -8,7 +8,7 @@ export default function Hero() {
           <div>
             <div className="inline-flex items-center gap-2 bg-purple-100 text-purple-700 px-4 py-2 rounded-full mb-6">
               <Sparkles className="h-4 w-4" />
-              <span className="text-sm font-medium">India's Premier Art Rental Service</span>
+              <span className="text-sm font-medium">India&apos;s Premier Art Rental Service</span>
             </div>
             
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">

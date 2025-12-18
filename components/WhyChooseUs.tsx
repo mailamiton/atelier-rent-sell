@@ -42,7 +42,7 @@ export default function WhyChooseUs() {
             Why Choose Ashish Patel Atelier
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            India's premier art rental service with a commitment to quality, flexibility, and exceptional service.
+            India&apos;s premier art rental service with a commitment to quality, flexibility, and exceptional service.
           </p>
         </div>
 
@@ -70,7 +70,7 @@ export default function WhyChooseUs() {
 
         <div className="mt-16 bg-gradient-to-br from-purple-600 to-blue-600 rounded-2xl p-12 text-center text-white">
           <h3 className="text-3xl font-bold mb-4">
-            Building India's #1 Art Movement
+            Building India&apos;s #1 Art Movement
           </h3>
           <p className="text-xl text-purple-100 max-w-3xl mx-auto">
             Creating signposts of happiness by transforming spaces with curated art. 

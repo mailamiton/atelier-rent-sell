@@ -77,7 +77,7 @@ export default function TargetAudiences() {
             Art Rental for Every Space
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Whether you're decorating a home, office, hotel, or event, we have the perfect art rental solution for you.
+            Whether you&apos;re decorating a home, office, hotel, or event, we have the perfect art rental solution for you.
           </p>
         </div>
 

@@ -11,7 +11,7 @@ export default function Footer() {
               <span className="text-xl font-bold">Ashish Patel Atelier</span>
             </div>
             <p className="text-gray-400 text-sm">
-              Building India's #1 Art Movement. Creating signposts of happiness through curated art.
+              Building India&apos;s #1 Art Movement. Creating signposts of happiness through curated art.
             </p>
           </div>
 

@@ -17,7 +17,7 @@ export default function LoveItBuyIt() {
             
             <p className="text-xl text-gray-600 mb-8">
               No need to commit upfront. Rent artwork, live with it, and if you fall in love, 
-              purchase it anytime. We'll adjust your rental payments toward the final price.
+              purchase it anytime. We&apos;ll adjust your rental payments toward the final price.
             </p>
 
             <div className="space-y-6 mb-8">
