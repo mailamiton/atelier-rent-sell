@@ -12,8 +12,8 @@ export default function Hero() {
             </div>
             
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-              Rent Art.<br />
-              <span className="gradient-text">Love It? Buy It.</span>
+              Premium Art Rental.<br />
+              <span className="gradient-text">Try It. Love It. Own It.</span>
             </h1>
             
             <p className="text-xl text-gray-600 mb-8">

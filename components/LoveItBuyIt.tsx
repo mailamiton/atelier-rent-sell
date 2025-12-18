@@ -6,18 +6,22 @@ export default function LoveItBuyIt() {
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <div className="inline-flex items-center gap-2 bg-pink-100 text-pink-700 px-4 py-2 rounded-full mb-6">
-              <Heart className="h-4 w-4 fill-current" />
-              <span className="text-sm font-medium">Rent-to-Own Program</span>
+            <div className="inline-flex items-center gap-2 bg-gradient-to-r from-purple-600 to-pink-600 text-white px-6 py-3 rounded-full mb-6 shadow-lg">
+              <Heart className="h-5 w-5 fill-current" />
+              <span className="text-sm font-bold">PREMIUM Rent-to-Own • 100% Credit Applied</span>
             </div>
 
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Love It? <span className="gradient-text">Buy It Anytime</span>
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+              Premium Art Rental with <span className="gradient-text">Zero-Risk Ownership</span>
             </h2>
             
+            <p className="text-2xl font-semibold text-purple-600 mb-6 italic">
+              &quot;Every rupee you rent brings you closer to owning the art you love&quot;
+            </p>
+            
             <p className="text-xl text-gray-600 mb-8">
-              No need to commit upfront. Rent artwork, live with it, and if you fall in love, 
-              purchase it anytime. We&apos;ll adjust your rental payments toward the final price.
+              No need to commit upfront. Rent premium artwork, live with it, and if you fall in love, 
+              purchase it anytime. We&apos;ll credit 100% of your rental payments toward the final price.
             </p>
 
             <div className="space-y-6 mb-8">
@@ -52,13 +56,22 @@ export default function LoveItBuyIt() {
               </div>
             </div>
 
-            <a 
-              href="#contact"
-              className="inline-flex items-center gap-2 bg-purple-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-purple-700 transition shadow-lg"
-            >
-              Start Renting Today
-              <Heart className="h-5 w-5" />
-            </a>
+            <div className="flex flex-col sm:flex-row gap-4">
+              <a 
+                href="#contact"
+                className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:from-purple-700 hover:to-pink-700 transition shadow-lg"
+              >
+                Start Your Art Journey
+                <Heart className="h-5 w-5" />
+              </a>
+              <a 
+                href="#pricing"
+                className="inline-flex items-center justify-center gap-2 bg-white text-purple-600 border-2 border-purple-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-purple-50 transition"
+              >
+                Buy Premium Art Direct
+                <ShoppingCart className="h-5 w-5" />
+              </a>
+            </div>
           </div>
 
           <div className="relative">
