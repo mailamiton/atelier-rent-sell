@@ -6,11 +6,6 @@ export default function LoveItBuyIt() {
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <div className="inline-flex items-center gap-2 bg-gradient-to-r from-purple-600 to-pink-600 text-white px-6 py-3 rounded-full mb-6 shadow-lg">
-              <Heart className="h-5 w-5 fill-current" />
-              <span className="text-sm font-bold">PREMIUM Rent-to-Own • 100% Credit Applied</span>
-            </div>
-
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
               Premium Art Rental with <span className="gradient-text">Zero-Risk Ownership</span>
             </h2>

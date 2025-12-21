@@ -54,18 +54,18 @@ export default function Hero() {
           </div>
 
           <div className="relative">
-            <div className="aspect-square rounded-2xl bg-gradient-to-br from-purple-200 to-blue-200 shadow-2xl relative overflow-hidden">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="text-center p-8">
-                  <div className="bg-white/90 backdrop-blur-sm rounded-xl p-8 shadow-xl">
-                    <p className="text-2xl font-bold text-gray-900 mb-2">Premium Art Collection</p>
-                    <p className="text-gray-600">Curated by professionals</p>
-                  </div>
-                </div>
-              </div>
+            <div className="aspect-video rounded-2xl shadow-2xl relative overflow-hidden">
+              <iframe 
+                src="https://player.vimeo.com/video/875890887?autoplay=1&loop=1&muted=1" 
+                className="absolute inset-0 w-full h-full"
+                frameBorder="0"
+                allow="autoplay; fullscreen; picture-in-picture"
+                allowFullScreen
+                title="Premium Art Collection - Curated by professionals"
+              ></iframe>
             </div>
             
-            <div className="absolute -bottom-6 -right-6 bg-yellow-400 text-gray-900 px-6 py-3 rounded-full font-bold shadow-lg rotate-12">
+            <div className="absolute -top-6 -left-6 bg-yellow-400 text-gray-900 px-6 py-3 rounded-full font-bold shadow-lg -rotate-12">
               Starting ₹700/month
             </div>
           </div>
