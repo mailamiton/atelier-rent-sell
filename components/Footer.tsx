@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { Palette, Instagram, Facebook, Linkedin, Mail } from 'lucide-react';
 
 export default function Footer() {
@@ -18,11 +19,12 @@ export default function Footer() {
           <div>
             <h3 className="font-bold mb-4">Quick Links</h3>
             <ul className="space-y-2 text-sm text-gray-400">
-              <li><a href="#home" className="hover:text-purple-400 transition">Home</a></li>
-              <li><a href="#rental" className="hover:text-purple-400 transition">Art Rental</a></li>
-              <li><a href="#pricing" className="hover:text-purple-400 transition">Pricing</a></li>
-              <li><a href="#buy" className="hover:text-purple-400 transition">Buy Art</a></li>
-              <li><a href="#contact" className="hover:text-purple-400 transition">Contact</a></li>
+              <li><Link href="/" className="hover:text-purple-400 transition">Home</Link></li>
+              <li><Link href="/#rental" className="hover:text-purple-400 transition">Art Rental</Link></li>
+              <li><Link href="/#pricing" className="hover:text-purple-400 transition">Pricing</Link></li>
+              <li><Link href="/#buy" className="hover:text-purple-400 transition">Buy Art</Link></li>
+              <li><Link href="/gallery" className="hover:text-purple-400 transition">Gallery</Link></li>
+              <li><Link href="/#contact" className="hover:text-purple-400 transition">Contact</Link></li>
             </ul>
           </div>
 

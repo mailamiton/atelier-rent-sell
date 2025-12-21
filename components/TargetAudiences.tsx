@@ -54,7 +54,6 @@ const audiences = [
     description: "Original artworks, signed pieces, and limited editions. Rental adjusts toward purchase price.",
     artTypes: ["Original Artworks", "Signed Editions", "Artist Biography Included"],
     period: "Monthly / Quarterly",
-    highlight: "Buy with rental credit",
     color: "from-indigo-500 to-purple-500"
   },
   {

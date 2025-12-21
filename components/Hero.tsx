@@ -30,7 +30,7 @@ export default function Hero() {
                 <ArrowRight className="h-5 w-5" />
               </a>
               <a 
-                href="#gallery" 
+                href="/gallery" 
                 className="inline-flex items-center justify-center gap-2 bg-white text-purple-600 px-8 py-4 rounded-full text-lg font-semibold border-2 border-purple-600 hover:bg-purple-50 transition"
               >
                 View Gallery
