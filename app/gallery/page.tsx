@@ -6,7 +6,6 @@ async function fetchGallery(page: number, pageSize: number) {
   try {
     const base = process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:8000";
     const res = await fetch(`${base}/v1/gallery?page=${page}&page_size=${pageSize}`, { 
-      next: { revalidate: 60 },
       cache: 'no-store'
     });
     if (!res.ok) return null;

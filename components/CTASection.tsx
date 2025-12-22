@@ -38,7 +38,7 @@ export default function CTASection() {
                 </div>
                 <div>
                   <h3 className="font-bold text-gray-900">Email Us</h3>
-                  <p className="text-gray-600">contact@ashishpatelatelier.com</p>
+                  <p className="text-gray-600">info@ashishpatelatelier.com</p>
                 </div>
               </div>
 
@@ -49,6 +49,17 @@ export default function CTASection() {
                 <div>
                   <h3 className="font-bold text-gray-900">Call Us</h3>
                   <p className="text-gray-600">+91 XXXXX XXXXX</p>
+                </div>
+              </div>
+
+              <div className="flex gap-4">
+                <div className="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <span className="text-2xl">💬</span>
+                </div>
+                <div>
+                  <h3 className="font-bold text-gray-900">WhatsApp Us</h3>
+                  <p className="text-gray-600">+91 XXXXX XXXXX</p>
+                  <p className="text-sm text-green-600 font-medium">Preferred mode of communication</p>
                 </div>
               </div>
 
@@ -103,7 +114,7 @@ export default function CTASection() {
 
                 <div>
                   <label className="block text-sm font-semibold text-gray-700 mb-2">
-                    Phone Number *
+                    WhatsApp Number *
                   </label>
                   <input
                     type="tel"

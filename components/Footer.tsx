@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import { Palette, Instagram, Facebook, Linkedin, Mail } from 'lucide-react';
+import Image from 'next/image';
+import { Instagram, Facebook, Linkedin, Mail } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -7,9 +8,14 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <Palette className="h-8 w-8 text-purple-400" />
-              <span className="text-xl font-bold">Ashish Patel Atelier</span>
+            <div className="mb-4">
+              <Image
+                src="/rent-buy-logo.png"
+                alt="Ashish Patel Atelier"
+                width={180}
+                height={54}
+                className="h-10 w-auto mb-3"
+              />
             </div>
             <p className="text-gray-400 text-sm">
               Building India&apos;s #1 Art Movement. Creating signposts of happiness through curated art.
@@ -42,16 +48,16 @@ export default function Footer() {
           <div>
             <h3 className="font-bold mb-4">Connect With Us</h3>
             <div className="flex gap-4 mb-4">
-              <a href="#" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-purple-600 transition">
+              <a href="https://www.instagram.com/ashishpatelatelier/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-purple-600 transition" aria-label="Instagram">
                 <Instagram className="h-5 w-5" />
               </a>
-              <a href="#" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-purple-600 transition">
+              <a href="https://www.facebook.com/ashishpatelatelier/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-purple-600 transition" aria-label="Facebook">
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="#" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-purple-600 transition">
+              <a href="https://www.linkedin.com/company/ashishpatelatelier/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-purple-600 transition" aria-label="LinkedIn">
                 <Linkedin className="h-5 w-5" />
               </a>
-              <a href="#" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-purple-600 transition">
+              <a href="mailto:info@ashishpatelatelier.com" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-purple-600 transition" aria-label="Email">
                 <Mail className="h-5 w-5" />
               </a>
             </div>

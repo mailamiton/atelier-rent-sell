@@ -2,7 +2,8 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { Menu, X, Palette } from 'lucide-react';
+import Image from 'next/image';
+import { Menu, X } from 'lucide-react';
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,14 +13,17 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center gap-3">
-            <div className="relative">
-              <Palette className="h-9 w-9 text-purple-600" />
-              <div className="absolute -bottom-1 -right-1 w-3 h-3 bg-purple-600 rounded-full"></div>
-            </div>
-            <div className="flex flex-col">
-              <span className="text-xl font-bold text-gray-900 leading-tight">Ashish Patel Atelier</span>
-              <span className="text-xs text-purple-600 font-medium">Premium Art Rental • Buy</span>
-            </div>
+            <Link href="/" className="flex items-center gap-3">
+              <Image
+                src="/rent-buy-logo.png"
+                alt="Ashish Patel Atelier"
+                width={200}
+                height={60}
+                className="h-12 w-auto"
+                priority
+              />
+              {/* <span className="text-sm text-purple-600 font-medium">Premium Art Rental • Buy</span> */}
+            </Link>
           </div>
 
           <div className="hidden md:flex items-center gap-6">

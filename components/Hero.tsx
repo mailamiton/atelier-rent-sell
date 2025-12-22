@@ -64,10 +64,6 @@ export default function Hero() {
                 title="Premium Art Collection - Curated by professionals"
               ></iframe>
             </div>
-            
-            <div className="absolute -top-6 -left-6 bg-yellow-400 text-gray-900 px-6 py-3 rounded-full font-bold shadow-lg -rotate-12">
-              Starting ₹700/month
-            </div>
           </div>
         </div>
       </div>
